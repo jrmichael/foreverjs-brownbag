@@ -14,7 +14,7 @@ export RUNAS=mbareja
 
 case "$1" in
 start)
-  sudo -H -u $RUNAS forever start /home/mbareja/projects/foreverjs-brownbag/app300.json
+  sudo -H -u $RUNAS forever start /home/mbareja/projects/foreverjs-brownbag/app3000.json
   ;;
 stop)
   sudo -H -u $RUNAS forever stop TheApp
@@ -23,7 +23,7 @@ restart)
   $0 stop && sleep 1 && $0 start
   ;;
 *)
-  echo "Usage: /etc/init.d/app300 {start|stop|restart}"
+  echo "Usage: /etc/init.d/app3000 {start|stop|restart}"
   exit 1
   ;;
 esac
