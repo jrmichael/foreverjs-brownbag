@@ -1,0 +1,8 @@
+{
+  "uid": "TheApp",
+  "append": true,
+  "watch": false,
+  "script": "app3000.js",
+  "sourceDir": "/home/mbareja/projects/foreverjs-brownbag",
+  "logFile": "/home/mbareja/projects/foreverjs-brownbag/logs/app300.log"
+}
